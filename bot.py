@@ -1,7 +1,7 @@
 import praw
-from helper import read_id, read_secret, read_agent
+from helper import read_cid, read_secret, read_agent
 
-cid = read_id()
+cid = read_cid()
 secret = read_secret()
 agent = read_agent()
 
